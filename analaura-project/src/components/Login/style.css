@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+.formSection{
+    background-color: #CCCCCC;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundSection{
+
+    background-image: url("../../assets/natação.png");
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100vh;
+    
+}
+form{
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    width: 774px;
+    height: 782px;
+    border-radius: 32px;
+    background-color: white;
+    
+}
+
+form input{
+    width: 646px;
+    height: 64px;
+    border-radius: 32px;
+    border: 2px solid #CCCCCC;
+    margin: 10px 0 10px 0;
+}
+.spanText{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-weight: bold;
+    color: #032565;
+    font-size: 24px;
+}
+
+img{
+    width: 287px;
+    height: 126px;
+    position: relative;
+    bottom: 95px;
+}
+
+button{
+    font-family: 'Open Sans';
+    width: 121px;
+    height: 48px;
+    color: white;
+    background-color: #3477AF;
+    border-radius: 8px;
+    border: none;
+    opacity: 1;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 60px;
+    
+}
+button:hover{
+    background-color: #1663a3;
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+Link{
+    color: #032565;
+    font-size: 16px;
+}
+
+@media screen and (max-width:1600px) {
+
+    img{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        bottom: 35px;
+    }
+    form{
+
+        width: 504px;
+        height: 582px;
+    }
+    form input{
+        width: 350px;
+        height: 50px;
+    }
+    button{
+        margin-top: 45px;
+    }
+}
