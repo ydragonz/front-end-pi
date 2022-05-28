@@ -45,6 +45,9 @@ form input{
     border-radius: 32px;
     border: 2px solid #CCCCCC;
     margin: 10px 0 10px 0;
+    display: flex;
+    text-align: center;
+    font-size: 24px;
 }
 .spanText{
     display: flex;
@@ -113,5 +116,8 @@ Link{
     }
     button{
         margin-top: 45px;
+    }
+    span{
+        font-size: 18px;
     }
 }
